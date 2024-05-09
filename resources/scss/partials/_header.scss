@@ -1,0 +1,38 @@
+header{
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    background-color: $bg-header;
+    box-shadow: 1px 1px 15px rgb(92, 92, 92);
+    display: flex;
+    justify-content: space-between;
+    ul{
+      list-style: none;
+      display: flex;
+      li{
+        a{
+          text-decoration: none;
+          color: $link-color;
+          font-weight: bold;
+          padding: 0px 5px;
+        }
+      }
+    }
+    img{
+      width: 100px;
+    }
+  }
+
+  .menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+      a{
+        padding: 0px 10px;
+        color: $link-color;
+        &:hover{
+          text-decoration: underline;;
+        }
+      }
+  }

@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+//   font-family: $primary-font;
+  height: 100vh;
+}
+
+img{
+  max-width: 100%;
+}
+
+.sa_container{
+  width: 1300px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.flexed{
+  display: flex;
+  justify-content: center;
+  align-content: flex-start;
+}
