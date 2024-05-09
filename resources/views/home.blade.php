@@ -1,7 +1,7 @@
 @extends('layout.main')
 
 @section('content')
-    <div class="container d-flex">
+    <div class="container d-flex flex-wrap ">
 
         @foreach ($products as $product)
             <div class="sa_card">

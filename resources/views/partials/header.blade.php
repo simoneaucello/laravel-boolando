@@ -1,9 +1,10 @@
 <header>
     <div class="sa_container menu">
         <ul class="d-flex justify-content-around">
-            <li><a href="#">Uomo</a></li>
-            <li><a href="#">Donna</a></li>
-            <li><a href="#">Bambino</a></li>
+            <li><a href="{{ route('home') }}">HOME</a></li>
+            <li><a href="{{ route('men') }}">Uomo</a></li>
+            <li><a href="{{ route('woman') }}">Donna</a></li>
+            <li><a href="{{ route('kids') }}">Bambino</a></li>
         </ul>
 
         <div class="logo">

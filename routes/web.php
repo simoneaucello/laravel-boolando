@@ -18,3 +18,15 @@ Route::get('/', function () {
     $products = config('products');
     return view('home', compact('products'));
 })->name('home');
+
+Route::get('/Uomo', function () {
+    return view('men');
+})->name('men');
+
+Route::get('/Donna', function () {
+    return view('woman');
+})->name('woman');
+
+Route::get('/Bambino', function () {
+    return view('kids');
+})->name('kids');
