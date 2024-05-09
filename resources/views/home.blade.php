@@ -9,6 +9,18 @@
                     <img class="front-img" src="/img/{{ $product['frontImage'] }}" alt="">
                     <img class="hover-img" src="/img/{{ $product['backImage'] }}" alt="">
 
+                    <div class="wishlist">&hearts;</div>
+
+                    <div class="badges">
+                        @foreach ($product['badges'] as $badge)
+                            @if ($badge['type'] === 'discount')
+                                <span class="discount"> {{ $badge['value'] }} </span>
+                            @else
+                                <span class="tag"> {{ $badge['value'] }} </span>
+                            @endif
+                        @endforeach
+                    </div>
+
 
 
                 </div>

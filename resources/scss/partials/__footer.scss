@@ -2,10 +2,11 @@ footer{
     background-color: $bg-footer;
     color: $primary-color;
     .bot-menu{
-      display: flex;
-      justify-content: space-between;
+    //   display: flex;
+    //   justify-content: space-between;
       padding: 30px;
       ul{
+        padding: 0px;
         display: flex;
         list-style: none;
         li{
@@ -13,13 +14,12 @@ footer{
           a{
             color: $link-color;
             text-decoration: none;
+            padding-right: 15px;
           }
         }
       }
     }
-    h4{
-      padding: 5px;
-    }
+
     a{
       color: $link-color;
       i{

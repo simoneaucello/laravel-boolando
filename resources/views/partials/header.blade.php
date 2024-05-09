@@ -1,5 +1,5 @@
 <header>
-    <div class="sa_container menu">
+    <div class="container menu">
         <ul class="d-flex justify-content-around">
             <li><a href="{{ route('home') }}">HOME</a></li>
             <li><a href="{{ route('men') }}">Uomo</a></li>
