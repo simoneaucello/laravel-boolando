@@ -21,11 +21,16 @@
                         @endforeach
                     </div>
 
-
-
+                    <div class="bottom-card">
+                        <div class="brand">{{ $product['brand'] }}</div>
+                        <div class="product">{{ $product['name'] }}</div>
+                        <div>
+                            <span class="sale-price"> {{ $product['price'] }} &euro;</span>
+                            <span class="previous"></span>
+                        </div>
+                    </div>
                 </div>
             </div>
         @endforeach
-
     </div>
 @endsection
