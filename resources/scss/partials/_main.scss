@@ -1,8 +1,11 @@
 main{
     text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
     padding: 30px 0;
     background-color: $bg-main;
+    img{
+        object-fit: contain;
+    }
   }

@@ -1,0 +1,80 @@
+.sa_card{
+    width: calc(100% / 3.2);
+    margin: 10px;
+    margin-top: 70px;
+    background-color: #fff;
+    .card-top{
+      position: relative;
+    }
+
+    .hover-img{
+      display: none;
+    }
+
+    .wishlist {
+      background-color: $color-white;
+      font-size: $font-large;
+      padding: 5px 12px;
+      position: absolute;
+      right: 0;
+      top: 2%;
+
+      &:hover {
+        color: $favourite;
+      }
+  }
+    .badges{
+      position: absolute;
+      font-weight: bold;
+      bottom: 8%;
+      color: $color-white;
+      font-size: $font-m;
+        .discount,
+        .tag {
+          padding: 5px 15px;
+        }
+
+        .discount {
+          background-color: $color-discount;
+        }
+
+        .tag {
+          background-color: $color-value;
+        }
+    }
+
+    .favourite{
+      color: $favourite;
+    }
+
+    .bottom-card {
+      font-size: $font-m;
+      text-align: start;
+      margin-left: 10px;
+      padding: 10px;
+
+      .product {
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: $font-m;
+      }
+
+      .sale-price {
+        color: $color-discount;
+        font-weight: bold;
+      }
+
+      .previous {
+        text-decoration: line-through;
+      }
+    }
+
+    &:hover{
+      .hover-img{
+        display: block;
+      }
+      .front-img{
+        display: none;
+      }
+    }
+  }
